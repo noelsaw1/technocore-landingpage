@@ -4,10 +4,5 @@ jQuery(document).ready(function ($) {
     /* core consts */
     const body = $('body');
 
-    /* after images are loaded */
-    body.imagesLoaded({}, function () {
-
-
-    });
 
 });
