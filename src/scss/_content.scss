@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:22px 20px 87px 20px;
+  padding: 22px 20px 87px 20px;
 
   .heading-text {
     font-weight: 400;
@@ -60,7 +60,7 @@
     }
   }
 
-  .footer-text{
+  .footer-text {
     margin-top: 54px;
     display: flex;
     font-style: normal;
@@ -70,5 +70,70 @@
     text-align: center;
     letter-spacing: 1.5px;
     color: #000000;
+  }
+
+  .content-list {
+    margin-top: 24px;
+    padding-left: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 29px;
+      letter-spacing: 1px;
+      color: #000000;
+    }
+  }
+
+  .tr-button {
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px 15px;
+    border-radius: 100px;
+
+    &.refer {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: #000000;
+      margin-top: 37px;
+      background: #9FB3CA;
+    }
+
+    &.submit {
+      background: #1946BA;
+
+      b {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+      }
+
+      span {
+        font-style: normal;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+      }
+    }
   }
 }

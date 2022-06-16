@@ -13,7 +13,7 @@ $fhd: 1920px;
 @import "classes";
 @import "content";
 
-* {
+*:not(i) {
   font-family: 'Metropolis' !important;
 }
 
