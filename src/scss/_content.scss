@@ -149,7 +149,7 @@
         background-color: #fff !important;
         content: "";
         display: inline-block;
-        border: 1px solid rgba(152, 152, 152, 0.4);
+        border: 1px solid rgba(152, 152, 152, 0.8);
         transition: all .2s ease-out;
         cursor: pointer;
       }
@@ -163,11 +163,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        border: 1px solid rgba(152, 152, 152, 0.4);
+        border: 1px solid rgba(152, 152, 152, 0.8);
         transition: all .2s ease-out;
         cursor: pointer;
         content: "";
-        background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2221%22%20height%3D%2221%22%20viewBox%3D%220%200%2021%2021%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M20.5%2020L1.5%201%22%20stroke%3D%22%23C4C4C4%22%2F%3E%0A%3Cpath%20d%3D%22M1%2020L20%201%22%20stroke%3D%22%23C4C4C4%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+        background: url("data:image/svg+xml,%3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.5 20L1.5 1' stroke='%23666666'/%3E%3Cpath d='M1 20L20 1' stroke='%23666666'/%3E%3C/svg%3E%0A");
         background-repeat: no-repeat;
       }
     }
